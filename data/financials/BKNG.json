@@ -1,0 +1,443 @@
+{
+  "ticker": "BKNG",
+  "name": "Booking Holdings",
+  "currency": "USD",
+  "unit": "Millions",
+  "quarters": [
+    "Q1 23",
+    "Q2 23",
+    "Q3 23",
+    "Q4 23",
+    "Q1 24",
+    "Q2 24",
+    "Q3 24",
+    "Q4 24",
+    "Q1 25",
+    "Q2 25",
+    "Q3 25",
+    "Q4 25",
+    "Q1 26"
+  ],
+  "pl": {
+    "sections": [
+      {
+        "label": "Revenue",
+        "rows": [
+          {
+            "name": "Merchant Revenues",
+            "vals": [
+              1752,
+              2770,
+              3945,
+              2469,
+              2388,
+              3446,
+              4972,
+              3336,
+              2918,
+              4457,
+              6131,
+              4249,
+              3698
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Agency Revenues",
+            "vals": [
+              1782,
+              2429,
+              3135,
+              2068,
+              1763,
+              2144,
+              2753,
+              1864,
+              1564,
+              2044,
+              2569,
+              1791,
+              1528
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Advertising & Other",
+            "vals": [
+              244,
+              263,
+              261,
+              247,
+              264,
+              269,
+              269,
+              271,
+              280,
+              297,
+              308,
+              309,
+              306
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Total Revenues",
+            "vals": [
+              3778,
+              5462,
+              7341,
+              4784,
+              4415,
+              5859,
+              7994,
+              5471,
+              4762,
+              6798,
+              9008,
+              6349,
+              5532
+            ],
+            "total": true,
+            "highlight": false
+          }
+        ]
+      },
+      {
+        "label": "Operating Expenses",
+        "rows": [
+          {
+            "name": "Marketing",
+            "vals": [
+              1517,
+              1801,
+              2022,
+              1433,
+              1610,
+              1939,
+              2151,
+              1578,
+              1777,
+              2139,
+              2340,
+              1930,
+              2068
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Sales & Other",
+            "vals": [
+              570,
+              717,
+              807,
+              650,
+              678,
+              820,
+              872,
+              750,
+              702,
+              899,
+              1022,
+              830,
+              804
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Personnel (incl. SBC)",
+            "vals": [
+              722,
+              752,
+              788,
+              1032,
+              826,
+              807,
+              868,
+              853,
+              693,
+              896,
+              945,
+              869,
+              893
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Total OpEx",
+            "vals": [
+              3328,
+              3789,
+              4238,
+              4175,
+              3624,
+              4003,
+              4815,
+              3742,
+              3700,
+              4548,
+              5525,
+              4319,
+              4261
+            ],
+            "total": true,
+            "highlight": false
+          }
+        ]
+      },
+      {
+        "label": "Income",
+        "rows": [
+          {
+            "name": "Operating Income",
+            "vals": [
+              450,
+              1673,
+              3103,
+              609,
+              791,
+              1856,
+              3179,
+              1729,
+              1062,
+              2250,
+              3483,
+              2030,
+              1271
+            ],
+            "total": false,
+            "highlight": true
+          },
+          {
+            "name": "Net Income",
+            "vals": [
+              266,
+              1290,
+              2511,
+              222,
+              776,
+              1521,
+              2517,
+              1068,
+              333,
+              895,
+              2748,
+              1428,
+              1083
+            ],
+            "total": false,
+            "highlight": true
+          },
+          {
+            "name": "Adjusted EBITDA",
+            "vals": [
+              586,
+              1778,
+              3284,
+              1464,
+              898,
+              1895,
+              3665,
+              1848,
+              1088,
+              2423,
+              4231,
+              2195,
+              1290
+            ],
+            "total": false,
+            "highlight": true
+          }
+        ]
+      }
+    ]
+  },
+  "bs": {
+    "sections": [
+      {
+        "label": "Assets",
+        "rows": [
+          {
+            "name": "Cash & Equivalents",
+            "vals": [
+              14140,
+              14602,
+              13294,
+              12107,
+              15629,
+              16290,
+              15775,
+              16164,
+              15578,
+              17595,
+              16509,
+              17203,
+              16024
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Total Assets",
+            "vals": [
+              25206,
+              26558,
+              25635,
+              24342,
+              27728,
+              28541,
+              27978,
+              27708,
+              27191,
+              30684,
+              28752,
+              29264,
+              27720
+            ],
+            "total": true,
+            "highlight": false
+          }
+        ]
+      },
+      {
+        "label": "Liabilities & Equity",
+        "rows": [
+          {
+            "name": "Short-term Debt",
+            "vals": [
+              854,
+              855,
+              1913,
+              1961,
+              3462,
+              3447,
+              2419,
+              1745,
+              655,
+              999,
+              999,
+              1880,
+              3015
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Long-term Debt",
+            "vals": [
+              11272,
+              13198,
+              11856,
+              12223,
+              13438,
+              13361,
+              13793,
+              14853,
+              15369,
+              17473,
+              15997,
+              16856,
+              15398
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Total Equity (Deficit)",
+            "vals": [
+              1074,
+              -665,
+              -625,
+              -2744,
+              -4052,
+              -4276,
+              -3653,
+              -4020,
+              -6112,
+              -6657,
+              -4736,
+              -5578,
+              -8724
+            ],
+            "total": false,
+            "highlight": true
+          }
+        ]
+      }
+    ]
+  },
+  "cf": {
+    "sections": [
+      {
+        "label": "Cash Flows",
+        "rows": [
+          {
+            "name": "Net Cash from Operations",
+            "vals": [
+              2889,
+              1737,
+              1372,
+              1346,
+              2704,
+              2525,
+              2373,
+              721,
+              3283,
+              3201,
+              1435,
+              1490,
+              3215
+            ],
+            "total": true,
+            "highlight": false
+          },
+          {
+            "name": "Capital Expenditures",
+            "vals": [
+              -88,
+              -92,
+              -71,
+              -94,
+              -130,
+              -146,
+              -77,
+              -76,
+              -121,
+              -64,
+              -64,
+              -73,
+              -107
+            ],
+            "total": false,
+            "highlight": false
+          },
+          {
+            "name": "Free Cash Flow",
+            "vals": [
+              2800,
+              1645,
+              1301,
+              1253,
+              2574,
+              2379,
+              2296,
+              644,
+              3162,
+              3137,
+              1371,
+              1416,
+              3108
+            ],
+            "total": false,
+            "highlight": true
+          }
+        ]
+      }
+    ]
+  }
+}
