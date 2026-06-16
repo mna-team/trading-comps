@@ -13,33 +13,106 @@
 .badge{font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid var(--border2);color:var(--text3);}.badge.live{background:var(--green-bg);border-color:#a8ddc9;color:var(--green);font-weight:600;}.dot-live{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:5px;animation:pulse 2s infinite;}@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.35}}
 .subheader{background:var(--purple);padding:10px 32px;display:flex;align-items:center;justify-content:space-between;}.subheader-title{font-family:var(--dm);font-size:12px;font-weight:500;color:rgba(255,255,255,0.75);letter-spacing:0.04em;text-transform:uppercase;}.subheader-date{font-size:11px;color:rgba(255,255,255,0.5);}
 .page-tabs-bar{background:var(--white);border-bottom:2px solid var(--border2);padding:0 32px;display:flex;}.page-tab-btn{background:none;border:none;border-bottom:3px solid transparent;padding:14px 28px;font-family:var(--sans);font-size:13px;font-weight:500;color:var(--text3);cursor:pointer;margin-bottom:-2px;}.page-tab-btn.active{color:var(--purple);border-bottom:3px solid var(--purple);font-weight:700;}
-.page-content{display:none;}.page-content.active{display:block;}.main{padding:24px 32px 40px;}.dashboard-grid{display:grid;grid-template-columns:2.2fr 1fr;gap:24px;}@media(max-width:1200px){.dashboard-grid{grid-template-columns:1fr;}}
+.page-content{display:none;}.page-content.active{display:block;}.main{padding:24px 32px 40px;}
+.dashboard-grid{display:grid;grid-template-columns:1fr;gap:24px;}
 .section-label{font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--text3);margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;}
 .table-wrap{background:var(--white);border:1px solid var(--border);border-radius:8px;overflow:hidden;box-shadow:var(--shadow);}table{width:100%;border-collapse:collapse;}thead tr{background:var(--purple4);border-bottom:2px solid var(--border2);}thead th{font-size:10px;font-weight:600;color:var(--purple);letter-spacing:0.07em;text-transform:uppercase;padding:11px 16px;text-align:right;white-space:nowrap;}thead th:first-child,thead th:nth-child(2),thead th:nth-child(3),thead th:nth-child(4){text-align:left;}tbody tr{border-bottom:1px solid var(--border);transition:background 0.1s;}tbody tr:hover{background:var(--purple4);}tbody td{padding:14px 16px;font-size:13px;color:var(--text);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;}tbody td:first-child,tbody td:nth-child(2),tbody td:nth-child(3),tbody td:nth-child(4){text-align:left;}
 .company-name{color:var(--purple);cursor:pointer;font-weight:600;}.ticker-badge{background:var(--purple3);color:var(--purple);font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;display:inline-block;}.multiple-cell{font-weight:600;}
 .stats-bar{background:var(--purple4);border-top:1px solid var(--border2);display:flex;flex-wrap:wrap;}.stat-item{flex:1;min-width:110px;padding:10px 16px;border-right:1px solid var(--border);text-align:right;}.stat-item:last-child{border-right:none;}.stat-item:first-child{text-align:left;}.stat-label{font-size:9px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--purple);display:block;margin-bottom:2px;}.stat-val{font-size:11px;font-weight:600;color:var(--text2);}
-.monitor-card{background:var(--white);border:1px solid var(--border);border-radius:8px;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden;}.monitor-fx-bar{display:grid;grid-template-columns:repeat(2,1fr);background:var(--purple4);border-bottom:1px solid var(--border2);padding:10px;gap:8px;}.fx-item{background:var(--white);padding:6px 10px;border-radius:6px;border:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;font-size:11px;}.fx-label{font-weight:600;color:var(--text2);}.fx-val{font-weight:700;}.fx-change{font-size:10px;font-weight:600;margin-left:4px;}.fx-up{color:var(--green);}.fx-down{color:var(--red);}.monitor-feed{padding:0 16px;max-height:485px;overflow-y:auto;}.feed-item{padding:12px 0;border-bottom:1px solid var(--border);}.feed-item:last-child{border-bottom:none;}.feed-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;}.feed-time{font-size:10px;font-weight:700;color:var(--text3);}.feed-badge{font-size:9px;font-weight:700;padding:2px 6px;border-radius:4px;text-transform:uppercase;}.badge-ma{background:#fff3cd;color:#856404;border:1px solid #ffeeba;}.badge-latam{background:#d1ecf1;color:#0c5460;border:1px solid #bee5eb;}.badge-travel{background:#e2e3e5;color:#383d41;border:1px solid #d6d8db;}
+.news-card{background:var(--white);border:1px solid var(--border);border-radius:8px;box-shadow:var(--shadow);overflow:hidden;}.feed-item{padding:14px 16px;border-bottom:1px solid var(--border);}.feed-item:last-child{border-bottom:none;}.feed-item:hover{background:var(--purple4);}.feed-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;}.feed-time{font-size:10px;font-weight:700;color:var(--text3);}.feed-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:4px;text-transform:uppercase;letter-spacing:0.04em;}.feed-txt{font-size:12px;color:var(--text2);line-height:1.65;}.feed-link{color:var(--purple);text-decoration:none;font-weight:700;margin-left:3px;}.feed-link:hover{text-decoration:underline;}
+.news-meta{margin-top:12px;font-size:10px;color:var(--text3);line-height:1.6;}
+.cot-wrap{background:var(--white);border:1px solid var(--border);border-radius:8px;overflow:hidden;overflow-x:auto;}.cot-table{width:100%;border-collapse:collapse;min-width:750px;}.cot-table thead tr{background:var(--purple4);border-bottom:2px solid var(--border2);}.cot-table thead th{font-size:10px;font-weight:600;color:var(--purple);text-transform:uppercase;padding:11px 14px;text-align:right;white-space:nowrap;}.cot-table thead th:first-child,.cot-table thead th:nth-child(2),.cot-table thead th:nth-child(3){text-align:left;}.cot-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer;}.cot-table tbody tr.section-row{cursor:default;}.cot-table tbody tr:not(.section-row):hover{background:var(--purple4);}.cot-table tbody td{padding:12px 14px;font-size:13px;color:var(--text);text-align:right;white-space:nowrap;}.cot-table tbody td:first-child,.cot-table tbody td:nth-child(2),.cot-table tbody td:nth-child(3){text-align:left;}.section-row td{background:#f0ebfa;color:var(--purple);font-size:9.5px;font-weight:700;text-transform:uppercase;padding:6px 14px;border-top:1px solid var(--border2);}.chg-pos{color:var(--green);font-weight:600;}.chg-neg{color:var(--red);font-weight:600;}.chg-neu{color:var(--text3);}.nodata{color:var(--text3);font-size:11px;font-style:italic;}.usd-note{font-size:10px;color:var(--text3);}
 .modal-overlay{display:none;position:fixed;inset:0;background:rgba(30,20,50,0.5);z-index:100;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(3px);}.modal-overlay.open{display:flex;}.modal{background:var(--white);border:1px solid var(--border);border-radius:10px;width:100%;max-width:1080px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 24px 80px rgba(60,20,100,0.18);}.modal-top-bar{background:var(--purple);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-radius:10px 10px 0 0;}.modal-company{font-family:var(--dm);font-size:17px;font-weight:700;color:#fff;}.modal-meta{font-size:11px;color:rgba(255,255,255,0.65);margin-top:2px;}.modal-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);color:#fff;width:30px;height:30px;border-radius:6px;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;}
 .modal-tabs{display:flex;padding:0 24px;border-bottom:2px solid var(--border2);background:var(--white);}.tab-btn{background:var(--white);border:none;border-bottom:3px solid transparent;padding:14px 24px;font-family:var(--sans);font-size:13px;font-weight:500;color:var(--text3);cursor:pointer;margin-bottom:-2px;}.tab-btn.active{color:var(--purple);border-bottom:3px solid var(--purple);font-weight:700;}.modal-body{padding:24px;overflow-y:auto;flex:1;background:var(--bg);}.tab-content{display:none;}.tab-content.active{display:block;}
 .fin-table-wrap{overflow-x:auto;background:var(--white);border:1px solid var(--border);border-radius:8px;}.fin-table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;}.fin-table thead th{background:var(--purple4);font-size:10px;font-weight:700;color:var(--purple);text-transform:uppercase;padding:10px 14px;text-align:right;border-bottom:2px solid var(--border2);white-space:nowrap;}.fin-table thead th:first-child{text-align:left;min-width:230px;}.fin-table tbody tr{border-bottom:1px solid var(--border);}.fin-table tbody tr:hover{background:var(--purple4);}.fin-table tbody td{padding:8px 14px;text-align:right;color:var(--text);white-space:nowrap;font-size:12px;}.fin-table tbody td:first-child{text-align:left;color:var(--text2);font-size:11.5px;}.fin-table .row-section td{background:#f0ebfa;color:var(--purple);font-size:9.5px;font-weight:700;text-transform:uppercase;padding:6px 14px;border-top:1px solid var(--border2);}.fin-table .row-total td{font-weight:700;color:var(--text)!important;background:var(--purple4);border-top:1px solid var(--border2);}.fin-table .row-highlight td{color:var(--purple)!important;font-weight:700;background:rgba(92,45,145,0.04);}.fin-table .neg{color:var(--red)!important;}
-.cot-wrap{background:var(--white);border:1px solid var(--border);border-radius:8px;overflow:hidden;overflow-x:auto;}.cot-table{width:100%;border-collapse:collapse;min-width:750px;}.cot-table thead tr{background:var(--purple4);border-bottom:2px solid var(--border2);}.cot-table thead th{font-size:10px;font-weight:600;color:var(--purple);text-transform:uppercase;padding:11px 14px;text-align:right;white-space:nowrap;}.cot-table thead th:first-child,.cot-table thead th:nth-child(2),.cot-table thead th:nth-child(3){text-align:left;}.cot-table tbody tr{border-bottom:1px solid var(--border);cursor:pointer;}.cot-table tbody tr.section-row{cursor:default;}.cot-table tbody tr:not(.section-row):hover{background:var(--purple4);}.cot-table tbody td{padding:12px 14px;font-size:13px;color:var(--text);text-align:right;white-space:nowrap;}.cot-table tbody td:first-child,.cot-table tbody td:nth-child(2),.cot-table tbody td:nth-child(3){text-align:left;}.section-row td{background:#f0ebfa;color:var(--purple);font-size:9.5px;font-weight:700;text-transform:uppercase;padding:6px 14px;border-top:1px solid var(--border2);}.chg-pos{color:var(--green);font-weight:600;}.chg-neg{color:var(--red);font-weight:600;}.chg-neu{color:var(--text3);}.nodata{color:var(--text3);font-size:11px;font-style:italic;}.usd-note{font-size:10px;color:var(--text3);}
-.chart-overlay{display:none;position:fixed;inset:0;background:rgba(30,20,50,0.55);z-index:200;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px);}.chart-overlay.open{display:flex;}.chart-modal{background:var(--white);border-radius:12px;width:100%;max-width:900px;overflow:hidden;box-shadow:0 24px 80px rgba(60,20,100,0.2);}.chart-modal-header{background:var(--purple);padding:18px 24px;display:flex;align-items:center;justify-content:space-between;}.chart-modal-title{font-family:var(--dm);font-size:16px;font-weight:700;color:#fff;}.chart-modal-sub{font-size:11px;color:rgba(255,255,255,0.6);margin-top:2px;}.chart-modal-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);color:#fff;width:30px;height:30px;border-radius:6px;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;}.chart-modal-body{padding:24px;background:var(--bg);}.chart-container{position:relative;height:380px;background:var(--white);border:1px solid var(--border);border-radius:8px;padding:16px;}.chart-nodata{display:flex;align-items:center;justify-content:center;height:280px;color:var(--text3);font-size:12px;background:var(--white);border:1px solid var(--border);border-radius:8px;}.chart-note{font-size:10px;color:var(--text3);margin-top:8px;text-align:right;}
+.chart-overlay{display:none;position:fixed;inset:0;background:rgba(30,20,50,0.55);z-index:200;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(4px);}.chart-overlay.open{display:flex;}.chart-modal{background:var(--white);border-radius:12px;width:100%;max-width:900px;overflow:hidden;}.chart-modal-header{background:var(--purple);padding:18px 24px;display:flex;align-items:center;justify-content:space-between;}.chart-modal-title{font-family:var(--dm);font-size:16px;font-weight:700;color:#fff;}.chart-modal-sub{font-size:11px;color:rgba(255,255,255,0.6);margin-top:2px;}.chart-modal-close{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);color:#fff;width:30px;height:30px;border-radius:6px;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;}.chart-modal-body{padding:24px;background:var(--bg);}.chart-container{position:relative;height:380px;background:var(--white);border:1px solid var(--border);border-radius:8px;padding:16px;}.chart-nodata{display:flex;align-items:center;justify-content:center;height:280px;color:var(--text3);font-size:12px;background:var(--white);border:1px solid var(--border);border-radius:8px;}.chart-note{font-size:10px;color:var(--text3);margin-top:8px;text-align:right;}
 .loading{display:flex;align-items:center;gap:10px;color:var(--text3);font-size:12px;padding:40px 0;justify-content:center;}.spinner{width:18px;height:18px;border:2px solid var(--border2);border-top-color:var(--purple);border-radius:50%;animation:spin 0.75s linear infinite;}@keyframes spin{to{transform:rotate(360deg);}}.error-msg{color:var(--red);font-size:12px;padding:20px;text-align:center;}
 .footer{background:var(--white);border-top:1px solid var(--border);padding:16px 32px;font-size:11px;color:var(--text3);}.footer-title{font-weight:600;color:var(--text2);margin-bottom:8px;font-size:10px;text-transform:uppercase;}.footer-sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
 ::-webkit-scrollbar{width:5px;height:5px;}::-webkit-scrollbar-track{background:transparent;}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
-</style></head><body>
+</style>
+</head>
+<body>
 <div class="header"><div class="header-left"><div class="logo-wrap"><img src="https://companieslogo.com/img/orig/DESP_BIG-1c252584.png?t=1742715926" alt="Despegar" onerror="this.style.display='none'"></div><div class="header-divider"></div><div class="header-title">M&amp;A — Trading Comparables</div></div><div class="header-right"><div class="badge live"><span class="dot-live"></span>Live Data</div><div class="badge" id="last-updated">Cargando…</div></div></div>
 <div class="subheader"><div class="subheader-title">Online Travel &amp; Hospitality · Comparable Companies Analysis</div><div class="subheader-date" id="current-date">—</div></div>
-<div class="page-tabs-bar"><button class="page-tab-btn active" onclick="switchPageTab('comparables',this)">Comparables</button><button class="page-tab-btn" onclick="switchPageTab('cotizaciones',this)">Cotizaciones</button></div>
-<div id="page-comparables" class="page-content active"><div class="main"><div class="dashboard-grid">
-<div><div class="section-label">Comparable Universe</div><div class="table-wrap"><table><thead><tr><th>Company</th><th>Ticker</th><th>Country</th><th>Sector</th><th>Last Qtr</th><th>Price (USD)</th><th>Avg 30d</th><th>Mkt Cap ($M)</th><th>EV ($M)</th><th>Rev LTM ($M)</th><th>EBITDA LTM ($M)</th><th>EV/Rev</th><th>EV/EBITDA</th></tr></thead><tbody id="comps-body"><tr><td colspan="13" class="loading"><div class="spinner"></div>Cargando datos…</td></tr></tbody></table>
-<div class="stats-bar" id="stats-bar" style="display:none;"><div class="stat-item"><span class="stat-label">Empresas</span><span class="stat-val" id="stat-count">—</span></div><div class="stat-item" id="stat-evrev"><span class="stat-label">EV/Rev Median</span><span class="stat-val">—</span></div><div class="stat-item" id="stat-evebitda"><span class="stat-label">EV/EBITDA Median</span><span class="stat-val">—</span></div><div class="stat-item" id="stat-mktcap"><span class="stat-label">Total Mkt Cap</span><span class="stat-val">—</span></div><div class="stat-item" id="stat-ev"><span class="stat-label">Total EV</span><span class="stat-val">—</span></div></div></div></div>
-<div><div class="section-label"><span>LATAM M&amp;A Monitor</span><span style="color:var(--green);font-size:9px;font-weight:700;"><span class="dot-live"></span>LIVE WIRE</span></div><div class="monitor-card"><div class="monitor-fx-bar"><div class="fx-item"><span class="fx-label">USD/BRL</span><div><span class="fx-val">5.01</span><span class="fx-change fx-down">▼ 0.3%</span></div></div><div class="fx-item"><span class="fx-label">USD/ARS</span><div><span class="fx-val">1,406</span><span class="fx-change fx-up">▲ 0.1%</span></div></div><div class="fx-item"><span class="fx-label">USD/MXN</span><div><span class="fx-val">17.50</span><span class="fx-change fx-down">▼ 0.5%</span></div></div><div class="fx-item"><span class="fx-label">USD/EUR</span><div><span class="fx-val">0.861</span><span class="fx-change fx-up">▲ 0.2%</span></div></div></div><div class="monitor-feed" id="monitor-feed"></div></div></div>
-</div></div></div>
-<div id="page-cotizaciones" class="page-content"><div class="main"><div class="section-label" style="margin-bottom:14px;"><span>Cotizaciones — Fuente: Google Sheets "Historical Stock Prices"</span><span style="color:var(--text3);font-size:9px;">Clic en empresa para ver gráfico histórico</span></div><div class="cot-wrap"><table class="cot-table"><thead><tr><th>Empresa</th><th>Ticker</th><th>Exchange / Moneda</th><th>Último Precio</th><th>Precio USD</th><th>Fecha</th><th>Chg % (vs prev)</th><th>Avg 30d</th><th>Avg 90d</th><th>Últimos 10d</th></tr></thead><tbody id="cot-body"><tr><td colspan="10" class="loading"><div class="spinner"></div>Cargando…</td></tr></tbody></table></div><div style="margin-top:10px;font-size:10px;color:var(--text3);line-height:1.7;">* Todos los precios provienen del Google Sheet "Stock Prices" del proyecto.<br>* Precios en moneda local del mercado de cotización. USD estimado con FX del sheet "Exchange Rates".</div></div></div>
-<div class="footer"><div class="footer-title">Data Sources</div><div class="footer-sources"><div><strong>Precios de acciones:</strong> Google Sheet "Historical Stock Prices" — proyecto M&amp;A</div><div><strong>Financial Statements:</strong> Corporate filings &amp; earnings releases (Q1 2023 – Q1 2026)</div><div><strong>FX Rates:</strong> Google Sheet "Exchange Rates" — mismo proyecto</div></div></div>
+<div class="page-tabs-bar">
+  <button class="page-tab-btn active" onclick="switchPageTab('comparables',this)">Comparables</button>
+  <button class="page-tab-btn" onclick="switchPageTab('cotizaciones',this)">Cotizaciones</button>
+  <button class="page-tab-btn" onclick="switchPageTab('noticias',this)">Noticias</button>
+</div>
+
+<div id="page-comparables" class="page-content active">
+  <div class="main">
+    <div class="section-label">Comparable Universe</div>
+    <div class="table-wrap">
+      <table><thead><tr><th>Company</th><th>Ticker</th><th>Country</th><th>Sector</th><th>Last Qtr</th><th>Price (USD)</th><th>Avg 30d</th><th>Mkt Cap ($M)</th><th>EV ($M)</th><th>Rev LTM ($M)</th><th>EBITDA LTM ($M)</th><th>EV/Rev</th><th>EV/EBITDA</th></tr></thead>
+      <tbody id="comps-body"><tr><td colspan="13" class="loading"><div class="spinner"></div>Cargando datos…</td></tr></tbody></table>
+      <div class="stats-bar" id="stats-bar" style="display:none;">
+        <div class="stat-item"><span class="stat-label">Empresas</span><span class="stat-val" id="stat-count">—</span></div>
+        <div class="stat-item" id="stat-evrev"><span class="stat-label">EV/Rev Median</span><span class="stat-val">—</span></div>
+        <div class="stat-item" id="stat-evebitda"><span class="stat-label">EV/EBITDA Median</span><span class="stat-val">—</span></div>
+        <div class="stat-item" id="stat-mktcap"><span class="stat-label">Total Mkt Cap</span><span class="stat-val">—</span></div>
+        <div class="stat-item" id="stat-ev"><span class="stat-label">Total EV</span><span class="stat-val">—</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="page-cotizaciones" class="page-content">
+  <div class="main">
+    <div class="section-label" style="margin-bottom:14px;"><span>Cotizaciones — Fuente: Google Sheets "Historical Stock Prices"</span><span style="color:var(--text3);font-size:9px;">Clic en empresa para ver gráfico histórico</span></div>
+    <div class="cot-wrap"><table class="cot-table"><thead><tr><th>Empresa</th><th>Ticker</th><th>Exchange / Moneda</th><th>Último Precio</th><th>Precio USD</th><th>Fecha</th><th>Chg % (vs prev)</th><th>Avg 30d</th><th>Avg 90d</th><th>Últimos 10d</th></tr></thead>
+    <tbody id="cot-body"><tr><td colspan="10" class="loading"><div class="spinner"></div>Cargando…</td></tr></tbody></table></div>
+    <div style="margin-top:10px;font-size:10px;color:var(--text3);line-height:1.7;">* Todos los precios provienen del Google Sheet "Stock Prices" del proyecto.<br>* Precios en moneda local. USD estimado con FX del sheet "Exchange Rates".</div>
+  </div>
+</div>
+
+<div id="page-noticias" class="page-content">
+  <div class="main">
+    <div class="section-label" style="margin-bottom:14px;">
+      <span>Noticias — Semana del 9 al 16 de Junio 2026</span>
+      <span style="color:var(--text3);font-size:9px;">Geo: Latam + contexto global · M&amp;A · Deals · AI/Tech en travel</span>
+    </div>
+    <div class="news-card"><div class="feed-item">
+<div class="feed-meta"><span class="feed-time">16/06</span><span class="feed-badge" style="background:#d1ecf1;border:1px solid #bee5eb;color:#0c5460;">AI/TECH</span></div>
+<div class="feed-txt">TikTok GO: el problema real para hoteles no es TikTok, es que su inventario no es machine-readable. Airbnb queda fuera de partners de lanzamiento (BKNG, EXPE, TCOM, Viator, GetYourGuide). <a href="https://www.phocuswire.com/opinion/distribution/hotel-industry-real-tiktok-go-problem" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">12/06</span><span class="feed-badge" style="background:#d1ecf1;border:1px solid #bee5eb;color:#0c5460;">AI/TECH</span></div>
+<div class="feed-txt">Travelport lanza TripServices: plataforma API cloud-native para conectar vuelos, hoteles y extras en una sola conexion. Respaldado por USD 50M de capital nuevo. Colaboracion con Cognizant y Anthropic. <a href="https://skift.com/2026/06/11/travelport-tripservices-cloud-apis-ai-travel/" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">12/06</span><span class="feed-badge" style="background:#d1ecf1;border:1px solid #bee5eb;color:#0c5460;">AI/TECH</span></div>
+<div class="feed-txt">IHG lanza app en ChatGPT: busqueda y comparacion de +7.000 hoteles con disponibilidad en tiempo real. Tambien llega a IHG.com y app IHG One Rewards. <a href="https://www.phocuswire.com/travel-tech-news-briefs/2026/june-12" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">12/06</span><span class="feed-badge" style="background:#d1ecf1;border:1px solid #bee5eb;color:#0c5460;">AI/TECH</span></div>
+<div class="feed-txt">Reservations.ai abre beta: plataforma conversacional (voz y texto) para reservar vuelos, hoteles y transporte en una sola interfaz. Construida sobre infraestructura de HotelPlanner (~3B GBV anual). <a href="https://www.phocuswire.com/travel-tech-news-briefs/2026/june-12" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">12/06</span><span class="feed-badge" style="background:#e2e3e5;border:1px solid #d6d8db;color:#383d41;">DEALS</span></div>
+<div class="feed-txt">Hotels Spent $100M Fighting OTAs. Did It Actually Work? Hoteles invirtieron en tech propia para reducir dependencia de Booking/Expedia, con resultados mixtos. OTA share sigue creciendo. <a href="https://skift.com/" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">12/05</span><span class="feed-badge" style="background:#d4edda;border:1px solid #c3e6cb;color:#155724;">M&amp;A</span></div>
+<div class="feed-txt">TikTok GO formaliza booking in-app (200M usuarios EE.UU.): partners BKNG, EXPE, TCOM, Viator, GetYourGuide, Tiqets. Creators ganan comision. Expansion a LATAM esperada. Airbnb ausente del lanzamiento. <a href="https://www.phocuswire.com/news/technology/tiktok-go-travel-booking-expedia-getyourguide-viator" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">03/05</span><span class="feed-badge" style="background:#fff3cd;border:1px solid #ffeeba;color:#856404;">CVC</span></div>
+<div class="feed-txt">Despegar (Prosus) prepara OPA sobre CVC Corp a &gt;R$3,30/accion (prima ~70% sobre mercado). CVC niega propuesta formal. Union crearia el mayor distribuidor de turismo de Latam. Pendiente CADE. <a href="https://www.panrotas.com.br/mercado/operadoras/2026/05/despegar-prepara-proposta-para-comprar-a-cvc-corp-diz-colunista_228168.html" target="_blank" class="feed-link">&#8599;</a></div>
+</div>
+<div class="feed-item">
+<div class="feed-meta"><span class="feed-time">05/06</span><span class="feed-badge" style="background:#fff3cd;border:1px solid #ffeeba;color:#856404;">CVC</span></div>
+<div class="feed-txt">Consolidadora CVC Corp (Rextur Advance) mantiene expansion por encima de la industria y presenta novedades del Reserva Facil 3.0 para agencias B2B. <a href="https://www.panrotas.com.br/tudo-sobre/cvc" target="_blank" class="feed-link">&#8599;</a></div>
+</div></div>
+    <div class="news-meta"><strong>Fuentes:</strong> Panrotas · Skift · PhocusWire · O Globo · Seu Dinheiro</div>
+  </div>
+</div>
+
+<div class="footer"><div class="footer-title">Data Sources</div><div class="footer-sources"><div><strong>Precios:</strong> Google Sheet "Historical Stock Prices" — proyecto M&amp;A</div><div><strong>Financials:</strong> Corporate filings &amp; earnings releases (Q1 2023 – Q1 2026)</div><div><strong>FX:</strong> Google Sheet "Exchange Rates" — mismo proyecto</div></div></div>
+
 <div class="modal-overlay" id="modal-overlay"><div class="modal"><div class="modal-top-bar"><div><div class="modal-company" id="modal-company-name">—</div><div class="modal-meta" id="modal-company-meta">—</div></div><button class="modal-close" onclick="closeModal()">✕</button></div><div class="modal-tabs"><button class="tab-btn active" onclick="switchTab('pl',this)">P&amp;L</button><button class="tab-btn" onclick="switchTab('bs',this)">Balance Sheet</button><button class="tab-btn" onclick="switchTab('cf',this)">Cash Flow</button></div><div class="modal-body"><div class="tab-content active" id="tab-pl"></div><div class="tab-content" id="tab-bs"></div><div class="tab-content" id="tab-cf"></div></div></div></div>
 <div class="chart-overlay" id="chart-overlay"><div class="chart-modal"><div class="chart-modal-header"><div><div class="chart-modal-title" id="chart-title">—</div><div class="chart-modal-sub">Precios históricos · Fuente: Google Sheets</div></div><button class="chart-modal-close" onclick="closeChart()">✕</button></div><div class="chart-modal-body"><div id="chart-wrap"></div><div class="chart-note" id="chart-note"></div></div></div></div>
+
 <script>
 const BASE="./data";
 const SECTIONS_COT=[{label:"OTAs Globales — NASDAQ (USD)",tickers:["EXPE","BKNG","TCOM","MMYT","ABNB","TRIP","TRVG","YTRA"]},{label:"OTAs Europa",tickers:["TRN","LM","EDRE","HTG","OTB"]},{label:"OTAs Asia-Pacífico",tickers:["780 HK","IXIGO","WJL","WEB","FLT"]},{label:"LATAM",tickers:["DESP","CVCB3","MOND"]}];
@@ -49,12 +122,11 @@ async function loadFinancials(t){if(FIN_CACHE[t])return FIN_CACHE[t];const d=awa
 async function loadPrices(t){if(PRICE_CACHE[t])return PRICE_CACHE[t];const d=await fetchJSON(BASE+"/prices/"+t+".json");PRICE_CACHE[t]=d;return d;}
 async function init(){
   document.getElementById("current-date").textContent=new Date().toLocaleDateString("en-US",{weekday:"long",year:"numeric",month:"long",day:"numeric"});
-  try{
-    [COMPANIES,STOCKS]=await Promise.all([fetchJSON(BASE+"/companies.json"),fetchJSON(BASE+"/stocks.json")]);
-    const dates=STOCKS.filter(s=>s.lastDate).map(s=>s.lastDate);
-    if(dates.length)document.getElementById("last-updated").textContent="Data · "+dates[dates.length-1];
-    renderComparables();renderCotizaciones();
-  }catch(e){document.getElementById("comps-body").innerHTML="<tr><td colspan='13' class='error-msg'>Error: "+e.message+"</td></tr>";console.error(e);}
+  try{[COMPANIES,STOCKS]=await Promise.all([fetchJSON(BASE+"/companies.json"),fetchJSON(BASE+"/stocks.json")]);
+  const dates=STOCKS.filter(s=>s.lastDate).map(s=>s.lastDate);
+  if(dates.length)document.getElementById("last-updated").textContent="Data · "+dates[dates.length-1];
+  renderComparables();renderCotizaciones();}
+  catch(e){document.getElementById("comps-body").innerHTML="<tr><td colspan='13' class='error-msg'>Error: "+e.message+"</td></tr>";console.error(e);}
 }
 function fmt(n){if(n===null||n===undefined)return"—";return Math.abs(n).toLocaleString("en-US",{maximumFractionDigits:0});}
 function fmtX(n){if(!n||isNaN(n))return"—";return n.toFixed(1)+"x";}
@@ -64,11 +136,8 @@ function renderComparables(){
   let html="";const evRevs=[],evEbs=[];let totMkt=0,totEv=0;
   for(const co of COMPANIES){
     const s=STOCKS.find(x=>x.ticker===co.ticker);
-    const price=s&&s.lastUSD!=null?s.lastUSD:null;
-    const avg30=s&&s.avg30USD!=null?s.avg30USD:null;
-    const nd=co.ltDebt+co.stDebt-co.cash;
-    const mkt=price?Math.round(price*co.shares):null;
-    const ev=mkt?mkt+nd:null;
+    const price=s&&s.lastUSD!=null?s.lastUSD:null,avg30=s&&s.avg30USD!=null?s.avg30USD:null;
+    const nd=co.ltDebt+co.stDebt-co.cash,mkt=price?Math.round(price*co.shares):null,ev=mkt?mkt+nd:null;
     const evR=ev?ev/co.revLtm:null,evE=ev?ev/co.ebitdaLtm:null;
     if(evR)evRevs.push(evR);if(evE)evEbs.push(evE);if(mkt)totMkt+=mkt;if(ev)totEv+=ev;
     html+="<tr><td><span class='company-name' onclick='openModal(&quot;"+co.ticker+"&quot;)'>"+co.name+"</span></td><td><span class='ticker-badge'>"+co.ticker+"</span></td><td style='color:var(--text2);font-size:12px;'>"+co.country+"</td><td style='color:var(--text3);font-size:11px;'>"+co.sector+"</td><td style='font-size:11px;color:var(--text3);'>"+co.lastQtr+"</td><td>"+(price?"$"+fmtP(price):"—")+"</td><td>"+(avg30?"$"+fmtP(avg30):"—")+"</td><td>"+(mkt?fmt(mkt):"—")+"</td><td>"+(ev?fmt(ev):"—")+"</td><td>"+fmt(co.revLtm)+"</td><td>"+fmt(co.ebitdaLtm)+"</td><td class='multiple-cell'>"+fmtX(evR)+"</td><td class='multiple-cell'>"+fmtX(evE)+"</td></tr>";
@@ -80,8 +149,6 @@ function renderComparables(){
   document.querySelector("#stat-evebitda .stat-val").textContent=fmtX(median(evEbs));
   document.querySelector("#stat-mktcap .stat-val").textContent="$"+fmt(totMkt)+"M";
   document.querySelector("#stat-ev .stat-val").textContent="$"+fmt(totEv)+"M";
-  const NEWS=[{t:"16:45",cat:"M&A",txt:"Prosus consolida operaciones tras adquisición de Despegar, optimizando ecosistema B2B regional."},{t:"14:20",cat:"LATAM",txt:"CVC Brasil reporta incremento del 14% en reservas confirmadas impulsado por rutas corporativas."},{t:"11:05",cat:"TRAVEL",txt:"Aerolíneas low-cost en Sudamérica expanden flota un 18% para temporada invernal 2026."},{t:"09:15",cat:"M&A",txt:"VC apunta a startups Fintech-Travel en México y Colombia para mitigar volatilidad cambiaria."},{t:"Ayer",cat:"LATAM",txt:"Brasil y Argentina avanzan en acuerdos de cielos abiertos para reducir tasas aeroportuarias."},{t:"Ayer",cat:"M&A",txt:"Consolidación hotelera en el Caribe: cadenas regionales incrementan M&A asset-heavy."}];
-  document.getElementById("monitor-feed").innerHTML=NEWS.map(n=>{const bc=n.cat==="M&A"?"badge-ma":n.cat==="LATAM"?"badge-latam":"badge-travel";return"<div class='feed-item'><div class='feed-meta'><span class='feed-time'>"+n.t+"</span><span class='feed-badge "+bc+"'>"+n.cat+"</span></div><div class='feed-title'>"+n.txt+"</div></div>";}).join("");
 }
 function buildSparkline(vals,isPos){if(!vals||vals.length<2)return"";const min=Math.min(...vals),max=Math.max(...vals),range=max-min||1,w=80,h=26,p=2;const pts=vals.map((v,i)=>{const x=p+(i/(vals.length-1))*(w-p*2),y=h-p-((v-min)/range)*(h-p*2);return x+","+y;}).join(" ");return"<svg width='"+w+"' height='"+h+"' viewBox='0 0 "+w+" "+h+"'><polyline points='"+pts+"' fill='none' stroke='"+(isPos?"var(--green)":"var(--red)")+"' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round'/></svg>";}
 function renderCotizaciones(){
@@ -98,17 +165,14 @@ function renderCotizaciones(){
       let uStr;if(s.lastUSD!=null)uStr="$"+fmtP(s.lastUSD);else if(s.avg90USD)uStr="<span class='usd-note'>~$"+fmtP(s.avg90USD)+" (90d)</span>";else uStr="<span class='nodata'>—</span>";
       const a30=s.avg30!=null?fmtP(s.avg30)+(s.currency!=="USD"&&s.avg30USD?" <span class='usd-note'>($ "+fmtP(s.avg30USD)+")</span>":""):"<span class='nodata'>—</span>";
       const a90=s.avg90!=null?fmtP(s.avg90)+(s.currency!=="USD"&&s.avg90USD?" <span class='usd-note'>($ "+fmtP(s.avg90USD)+")</span>":""):"<span class='nodata'>—</span>";
-      html+="<tr onclick='openChart(&quot;"+s.ticker+"&quot;,&quot;"+s.name+"&quot;)'><td><span class='company-name'>"+s.name+"</span></td><td><span class='ticker-badge'>"+s.ticker+"</span></td><td style='color:var(--text2);font-size:11px;'>"+s.exchange+"</td><td><strong>"+pStr+"</strong></td><td>"+uStr+"</td><td style='color:var(--text3);font-size:11px;'>"+(s.lastDate||"—")+"</td><td class='"+chgClass+"'>"+ chgStr+"</td><td>"+a30+"</td><td>"+a90+"</td><td>"+spark+"</td></tr>";
+      html+="<tr onclick='openChart(&quot;"+s.ticker+"&quot;,&quot;"+s.name+"&quot;)'><td><span class='company-name'>"+s.name+"</span></td><td><span class='ticker-badge'>"+s.ticker+"</span></td><td style='color:var(--text2);font-size:11px;'>"+s.exchange+"</td><td><strong>"+pStr+"</strong></td><td>"+uStr+"</td><td style='color:var(--text3);font-size:11px;'>"+(s.lastDate||"—")+"</td><td class='"+chgClass+"'>"+chgStr+"</td><td>"+a30+"</td><td>"+a90+"</td><td>"+spark+"</td></tr>";
     }
   }
   document.getElementById("cot-body").innerHTML=html;
 }
 function buildFinTable(fin,section){
   const q=fin.quarters;let h="<div class='fin-table-wrap'><table class='fin-table'><thead><tr><th>USD M</th>"+q.map(x=>"<th>"+x+"</th>").join("")+"</tr></thead><tbody>";
-  for(const sec of fin[section].sections){
-    h+="<tr class='row-section'><td colspan='"+(q.length+1)+"'>"+ sec.label+"</td></tr>";
-    for(const row of sec.rows){const cls=row.total?"row-total":row.highlight?"row-highlight":"";h+="<tr class='"+cls+"'><td>"+row.name+"</td>"+row.vals.map(v=>{const neg=v<0,d=v===0?"—":(neg?"("+fmt(v)+")":fmt(v));return"<td class='"+(neg?"neg":"")+"'>"+ d+"</td>";}).join("")+"</tr>";}
-  }
+  for(const sec of fin[section].sections){h+="<tr class='row-section'><td colspan='"+(q.length+1)+"'>"+sec.label+"</td></tr>";for(const row of sec.rows){const cls=row.total?"row-total":row.highlight?"row-highlight":"";h+="<tr class='"+cls+"'><td>"+row.name+"</td>"+row.vals.map(v=>{const neg=v<0,d=v===0?"—":(neg?"("+fmt(v)+")":fmt(v));return"<td class='"+(neg?"neg":"")+"'>"+d+"</td>";}).join("")+"</tr>";}}
   return h+"</tbody></table></div>";
 }
 async function openModal(ticker){
@@ -122,7 +186,7 @@ async function openModal(ticker){
   document.getElementById("tab-pl").classList.add("active");
   ["tab-pl","tab-bs","tab-cf"].forEach(id=>{document.getElementById(id).innerHTML="<div class='loading'><div class='spinner'></div>Cargando…</div>";});
   try{const fin=await loadFinancials(ticker);document.getElementById("tab-pl").innerHTML=buildFinTable(fin,"pl");document.getElementById("tab-bs").innerHTML=buildFinTable(fin,"bs");document.getElementById("tab-cf").innerHTML=buildFinTable(fin,"cf");}
-  catch(e){["tab-pl","tab-bs","tab-cf"].forEach(id=>{document.getElementById(id).innerHTML="<div class='error-msg'>No se encontraron datos financieros para "+ticker+".</div>";});}
+  catch(e){["tab-pl","tab-bs","tab-cf"].forEach(id=>{document.getElementById(id).innerHTML="<div class='error-msg'>No se encontraron datos para "+ticker+".</div>";});}
 }
 function closeModal(){document.getElementById("modal-overlay").classList.remove("open");}
 document.getElementById("modal-overlay").addEventListener("click",function(e){if(e.target===this)closeModal();});
@@ -135,8 +199,8 @@ async function openChart(ticker,name){
   wrap.innerHTML="<div class='loading'><div class='spinner'></div>Cargando historial…</div>";
   document.getElementById("chart-note").textContent="";
   let labels=[],prices=[],avg30=null,currency="USD";
-  try{const pd=await loadPrices(ticker);labels=pd.history.map(h=>h.date.slice(5));prices=pd.history.map(h=>h.close);currency=pd.currency;const s=STOCKS.find(x=>x.ticker===ticker);avg30=s&&s.avg30?s.avg30:null;document.getElementById("chart-note").textContent="Fuente: Google Sheets · "+prices.length+" puntos · Moneda: "+currency;}
-  catch{const s=STOCKS.find(x=>x.ticker===ticker);if(!s||!s.history||s.history.length<2){wrap.innerHTML="<div class='chart-nodata'>Sin historial disponible.</div>";return;}labels=s.history.map(h=>h.d);prices=s.history.map(h=>h.p);avg30=s.avg30||null;currency=s.currency;document.getElementById("chart-note").textContent="Fuente: Google Sheets · "+prices.length+" puntos recientes · Moneda: "+currency;}
+  try{const pd=await loadPrices(ticker);labels=pd.history.map(h=>h.date.slice(5));prices=pd.history.map(h=>h.close);currency=pd.currency;const s=STOCKS.find(x=>x.ticker===ticker);avg30=s&&s.avg30?s.avg30:null;document.getElementById("chart-note").textContent="Fuente: Google Sheets · "+prices.length+" puntos · "+currency;}
+  catch{const s=STOCKS.find(x=>x.ticker===ticker);if(!s||!s.history||s.history.length<2){wrap.innerHTML="<div class='chart-nodata'>Sin historial disponible.</div>";return;}labels=s.history.map(h=>h.d);prices=s.history.map(h=>h.p);avg30=s.avg30||null;currency=s.currency;document.getElementById("chart-note").textContent="Fuente: Google Sheets · "+prices.length+" puntos recientes · "+currency;}
   wrap.innerHTML="<div class='chart-container'><canvas id='pChart'></canvas></div>";
   if(_chart){_chart.destroy();_chart=null;}
   const datasets=[{label:ticker+" ("+currency+")",data:prices,borderColor:"#5c2d91",backgroundColor:"rgba(92,45,145,0.07)",borderWidth:2,pointRadius:2,pointHoverRadius:5,fill:true,tension:0.3}];
@@ -148,4 +212,6 @@ function closeChart(){document.getElementById("chart-overlay").classList.remove(
 document.getElementById("chart-overlay").addEventListener("click",function(e){if(e.target===this)closeChart();});
 function switchPageTab(name,btn){document.querySelectorAll(".page-content").forEach(p=>p.classList.remove("active"));document.querySelectorAll(".page-tab-btn").forEach(b=>b.classList.remove("active"));document.getElementById("page-"+name).classList.add("active");btn.classList.add("active");}
 init();
-</script></body></html>
+</script>
+</body>
+</html>
