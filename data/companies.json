@@ -1,0 +1,5 @@
+[
+  {"name":"Booking Holdings","ticker":"BKNG","country":"United States","sector":"Online Travel","lastQtr":"Q1 2026","revLtm":27687,"ebitdaLtm":10139,"ltDebt":15398,"stDebt":3015,"cash":16024,"shares":794},
+  {"name":"Expedia Group","ticker":"EXPE","country":"United States","sector":"Online Travel","lastQtr":"Q4 2025","revLtm":14733,"ebitdaLtm":3501,"ltDebt":4469,"stDebt":1692,"cash":5413,"shares":128},
+  {"name":"Trip.com Group","ticker":"TCOM","country":"Singapore","sector":"Online Travel","lastQtr":"Q4 2025","revLtm":8951,"ebitdaLtm":2648,"ltDebt":1634,"stDebt":2765,"cash":6642,"shares":650}
+]
